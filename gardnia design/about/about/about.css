@@ -1,0 +1,123 @@
+body{direction: rtl;}
+.logo{
+    width: 300px;
+    height: 200px;
+    margin-right: 40%;
+}
+.logo img{
+    width: 300px;
+    height: 200px;
+}
+.content{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.content .feat{
+    float: left;
+    width:33.33333%;
+    
+}
+.content .feat h2{
+    color:#fff;
+    border: 3px solid black;
+    width: 50%;
+    padding: 7px 10px 7px 0;
+    background-color: #888;
+    font-family: Andalus;
+    font-size: 30px;
+}
+.content .feat li{
+    font-weight: bold;
+    font-style: italic;
+    color: #888;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.responsbility h3{
+    color:#fff;
+    border: 3px solid black;
+    width: 50%;
+    padding: 7px 10px 7px 0;
+    background-color: #888;
+    font-family: Andalus;
+    font-size: 30px;
+    
+    
+}
+.responsbility p{
+    font-weight: bold;
+    color: #888;
+    line-height: 1.6;
+    font-size: 20px;
+    
+}
+.responsbility li{
+  font-weight: bold;
+    color: #888;
+    line-height: 1.8;
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+.advantage h2{
+    color:#fff;
+    border: 3px solid black;
+    width: 20%;
+    padding: 7px 10px 7px 0;
+    background-color: #888;
+    font-family: Andalus;
+    font-size: 30px;    
+}
+.advantage p{
+    font-weight: bold;
+    color: #888;
+    line-height: 1.6;
+    font-size: 20px;
+}
+.advantage li{
+    font-weight: bold;
+    font-style: italic;
+    color: #888;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.thanks legend{
+    font-weight: bold;
+    font-family: Andalus;
+    font-size: 20px;
+    
+}
+.thanks pre{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 50px;
+    text-align: right;
+    background-color: #888;
+    border: 8px solid black;
+    
+}
+.thanks h3{
+    text-align: left;
+    font-family:Arabic Typesetting;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+target="_blank"  open tap google
+title="hello" img 
+../img if it out
+alt=" hello" show name بدل picture
+#new if an pargraph i want to go to him new is id
+<!DOCTYPE html> html5
+<meta charset="utf-8">
+<meta name="description" contant="any thing i want">
+style in head
+<!.. any thing>
+<ol type="A"><li></li>
+<dl><dt><dd>
+em
+Blockquote
+Q ""
+Mark any word
+Del خط على جملة غلط
+Ins tru
+Sup 2^5
+Sub عكسهاا
+Category
+Education

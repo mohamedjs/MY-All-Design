@@ -1,0 +1,25 @@
+abbr كلمة مختصرة ويقلك الاختصار
+<artical>
+<header class="">
+ينفع كذاا هيدر جوة اى ارتيكل
+</header>
+</artical>
+<main>
+ميتكررش وينفع احط جواااه  اى حاجة
+حاجة مش هتكرر فى اى صفحة زى الهوم وكدة 
+</main>
+<aside>
+بتاع اللينكااات الى فى الجنب 
+</aside>
+<progress valu="" max="100"> بيحد مثلا نسبة كدة عبارة عن خط بيح</progress>
+<meter min="" max="" valu="" low="" height=""> م> انت الى بتحدد قيمة لنسبة معينة وبيدى لون مثلا لوضعيف او قوى</meter
+<details open or close><ul><li>بتحط اى حاجة لما مثلا يدوس عيها يعرف الحاجة دية زى مثلا اجابة وعايز تخفيهاا</li></ul><details>
+<mark>زى مثلا لما بعمل سيرش بيعلم على الكلمة الى انا عايزها بلون اصفر كدة</mark>
+<audio control autoplay muted loop preload="none "> <source src="" type="audio/anything"></audio>
+<video src="" width="" height="" loop muted poster="anything.jpg" picture befor start> <track src=""anything.vtt kind="subtitle">
+<input type="color" name=""them" value="blue'>
+<input type="rang" name="chose" min="" max="" step="" value"">
+<input type="number" name="chose" min="" max="" step="" value"">
+AutoComplete="off on", متخليش حد يشوف القيم القديمة
+AutoFocus, اعمل فوس على عنصر معين
+NoValidate متعملش اى فيليدي للفورم

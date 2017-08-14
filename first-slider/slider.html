@@ -1,0 +1,72 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+        <title>BY ME</title>
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+     <script src="jquery-3.1.0.min.js"></script>
+        <script type="text/javascript">
+            var i=0;
+            var n='<img src="1.jpg">';
+            var x='<img src="2.jpg">';
+            var y='<img src="3.jpg">';
+            var z='<img src="4.jpg">';
+            var myarray=[x,y,z,n];
+         function my() {
+            var mydiv= document.getElementById("en");
+            mydiv.innerHTML=myarray[i];
+            i++;
+               if(i==4){
+              i=0;
+           }
+         }
+            function myd() {
+            var h= document.getElementById("en");
+            h.innerHTML=myarray[i];
+                i--;
+                if(i==-1){
+                  i=3;
+               }
+         }
+         $(function(){
+           'use strict';
+           var  nav=$('.navbar');
+           var image=$('.do img');
+           $(window).scroll(function(){
+              var scroll=$(window).scrollTop();
+              if(scroll >= image.outerHeight()){
+                nav.addClass('fixed').slideDown();
+              }
+              else{
+                nav.removeClass('fixed');
+              }
+           });
+         });
+      </script>
+      <div id="en" class="do">
+         <img src="1.jpg">
+      </div>
+      <i class="fa la fa-arrow-circle-left fa-3x" onclick="myd()"  aria-hidden="true"></i>
+      <div class="navbar" >
+               <div class="links brand">
+                     <h2>Blue</h2>
+               </div>
+                <ul class="links">
+                   <li class="active"><a href="#">Home</a></li>
+                   <li><a  href="#" data-value="ser">About</a></li>
+                   <li><a href="#" data-value="port">Portfolio</a></li>
+                   <li><a href="#" data-value="test">Testimonials</a></li>
+                   <li><a href="#" data-value="con">Contact</a></li>
+               </ul>
+            </div>
+      <div class="word">
+         <h1>I LOVE YOU MY BABY
+                        <span>You All My Live And My Soal </span>
+                  </h1>
+      </div>
+      <i class="fa laa fa-arrow-circle-right fa-3x" onclick="my()"  aria-hidden="true"></i>
+      <div style="height:1000px;"></div>
+   </body>
+</html>

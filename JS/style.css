@@ -1,0 +1,89 @@
+body{
+   background-color: #285C7A;
+}
+
+.container{
+   width: 583px;
+   margin: auto;
+}
+.header{
+   background-color: #041122;
+   text-align: center;
+   height: 520px;
+   width: 580;
+   margin-top: 5%;
+   margin-left: 25%;
+   box-shadow: 2px 2px 1px #173A52;
+   border-radius: 5px;
+}
+.header .col{
+   float: left;
+   width: 49%;
+   padding: 2px;
+   position: relative;
+   background-color: #01AEF2;
+   -webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.header .col:hover{
+   background-color: aqua;
+}
+.header .col h1{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.2;
+   letter-spacing: 2px;
+   clear: both;
+   color:#C9F4FF ;
+}
+.header .reg{
+   background-color: #041122;
+}
+.header .form .input{
+   display: block;
+   margin-top: 20%;
+   margin-left: 8%;
+   padding: 7%;
+   width: 520px;
+   font-size: 12px;
+   font-weight: 500;
+   color: #8F9194;
+   background-color: #041122;
+   border: 1px solid  #041122;
+   border-bottom: 2px solid #285C7A;
+   -webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.header .form .input:hover{
+   background-color: #285C7A;
+   border-radius: 5px;
+   
+}
+.header .form{
+   background-color: #041122;
+}
+.header .form:hover{
+   background-color: #041122;
+}
+.header .form .button{
+   background-color:#285C7A ;
+   color:#C9F4FF ;
+   font-size: 15px;
+   font-family: 600;
+   line-height: 1.5;
+   border-radius:5px ;
+   margin-top: 7%;
+   padding: 10px;
+   width: 520px;
+   margin-left: 8%;
+   border: 1px solid #285C7A;
+   -webkit-transition: all .5s ease-in-out;
+transition: all 1s ease-in-out;
+}
+.header .form .button:hover{
+   background-color:aqua;
+   width: 300px;
+   margin-left: 50%;
+   border-radius:4px ;
+   transform: scale(.8);
+}

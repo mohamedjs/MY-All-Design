@@ -1,0 +1,42 @@
+
+.conteent{
+    width: 600px;
+    height: 400px;
+    background-color: #252F33;
+   margin-right: 35%;
+    border-radius: 25px;
+}
+.text{
+    width: 300px;
+    margin-right: 20px;
+    
+    
+}
+.content .text textarea,
+.content .text input[type="text"]
+{
+    background-color: #485557;
+    color: #fff;
+}
+.text h2{
+    
+    color: #fff;
+   margin-top: 5px;
+    padding-top: 5px;
+}
+.form-control{
+    margin-top: 25px;
+    margin-left: 10px;
+    
+    
+}
+.btn{
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.ss{
+   float: left;
+    margin-left: 20px;
+    
+    
+}

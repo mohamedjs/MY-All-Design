@@ -1,0 +1,216 @@
+body{
+	background-image:url(img/200.jpg);
+	background-size:cover;
+}
+.head{
+	border-top:solid;
+	border-top-width:10px;
+	border-top-color:gray;
+	height:40px;
+	border-bottom:solid;
+	border-bottom-width:5px;
+	border-bottom-color:gray;
+	width:100%;
+}
+ul{
+	list-style-type:none;
+	display:inline-block;
+}
+.head li{
+	font-family:Agency FB;
+	font-size:20px;
+	color:gray;
+	list-style-position:inside;
+	display:inline-block;
+	text-transform : capitalize;
+	transition:all 0.5s ease-in-out;
+	margin-left:25px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+}
+.head li a{
+	text-decoration:none;
+	color:fuchsia;
+	transition-property: background-color, color, letter-spacing;
+    transition-duration: 0.6s, 2s, 0.3s;
+    transition-timing-function: ease-out, ease-in, ease-out;
+}
+a:hover, a:focus {
+background-color: red;
+letter-spacing: 3px;
+color: black;
+}
+input[type="search"]{
+	float:right;
+    margin-top:8px;
+	border-radius:10px;
+	color:darkseagreen;
+	border-bottom-style:solid;
+}
+input[type="submit"]{
+	float:right;
+    margin-top:8px;
+}
+.header{
+	display:inline-block;
+	background-color: black;
+	height:150px;
+	width:100%;
+}
+.header h3{
+    font-family:Agency FB;
+    font-weight:bold;
+    font-size:47px;
+    color:white;
+    padding-top:10px;
+    padding-left:140px;
+	display:inline-block;
+}
+.login{
+	padding:10px;
+	margin-top:30px;
+	border:solid;
+	width:300px;
+	border-top-right-radius:100px;
+	border-color:red;
+	background-color:gold;
+
+}
+input[type="submit"], input[type="reset"],input[type="text"] ,input[type="textarea"]{
+	background: white;
+	font-size: inherit;
+    font-family:Agency FB;
+    font-weight:italic;
+	border: 1px solid #04699d;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+.subject{
+	padding:10px;
+	margin-top:30px;
+	border:solid;
+	width:300px;
+	border-top-right-radius:100px;
+	border-color:red;
+	background-color:gold;
+}
+.subject li{
+	font-family:Agency FB;
+	font-size:15px;
+	color:gray;
+	list-style-position:inside;
+	text-transform : capitalize;
+	transition:all 0.5s ease-in-out;
+}
+.subject li a{
+	text-decoration:none;
+	color:fuchsia;
+	transition-property: background-color, color, letter-spacing;
+    transition-duration: 0.6s, 2s, 0.3s;
+    transition-timing-function: ease-out, ease-in, ease-out;
+}
+.teacher{
+	padding:10px;
+	margin-top:30px;
+	border:solid;
+	width:300px;
+	border-top-right-radius:100px;
+	border-color:red;
+	background-color:gold;
+}
+.teacher li{
+	font-family:Agency FB;
+	font-size:15px;
+	color:gray;
+	list-style-position:inside;
+	text-transform : capitalize;
+	transition:all 0.5s ease-in-out;
+}
+.teacher li a{
+	text-decoration:none;
+	color:fuchsia;
+	transition-property: background-color, color, letter-spacing;
+  transition-duration: 0.6s, 2s, 0.3s;
+  transition-timing-function: ease-out, ease-in, ease-out;
+}
+.login li{
+	font-family:Agency FB;
+	font-size:15px;
+	color:gray;
+	list-style-position:inside;
+	text-transform : capitalize;
+	transition:all 0.5s ease-in-out;
+}
+.login li a{
+	text-decoration:none;
+	color:fuchsia;
+	transition-property: background-color, color, letter-spacing;
+  transition-duration: 0.6s, 2s, 0.3s;
+  transition-timing-function: ease-out, ease-in, ease-out;
+}
+.footer{
+height: 292px;
+background-color: rgba(255, 255, 255, 0.78);
+margin-top: 20px;
+border-radius: 7px;
+}
+.games{
+	margin-top:20px;
+	float:left;
+	display:inline-block;
+	margin-left:12%;
+}
+.important{
+	margin-top:20px;
+	float:left;
+	display:inline-block;
+	margin-left:15%;
+}
+.learning{
+	float:left;
+	display:inline-block;
+	margin-left:15%;
+	margin-top:20px;
+}
+.contact{
+	margin-top:20px;
+	float:left;
+	display:inline-block;
+	margin-left:2%;
+}
+.left{
+	float:left;
+}
+.link{
+	background-color: rgba(0, 0, 0, 0.92);
+	float: right;
+	width: 860px;
+	height: 50px;
+	border-radius: 100px;
+	padding: 30px;
+	margin-top: 10px;
+}
+.link li{
+	display:inline-block;
+	padding-left:10%;
+	padding-top:2%;
+}
+.contant{
+background-color: rgba(27, 27, 29, 0.88);;
+display: inline-block;
+float: right;
+height: 586px;
+margin-top: 20px;
+width: 871px;
+border-radius: 50px;
+padding-left: 30px;
+overflow: scroll;
+}
+.contant li{
+	display:inline-block;
+	padding-left:10%;
+	padding-top:2%;
+}
+.clearfix{
+	clear: both;
+}

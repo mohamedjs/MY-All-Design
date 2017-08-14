@@ -1,0 +1,127 @@
+body{
+background-size:100% 100%;
+background-image:url(img/1.jpg);
+}
+.image{
+	background-color:aquamarine;
+	padding:40px;
+	background: -moz-linear-gradient(top, #ffff00 0%, #00ff00 100%);/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, colorstop(
+                0%,#ffff00), color-stop(100%,#00ff00));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffff00 0%,#00ff00 100%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffff00 0%,#00ff00 100%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffff00 0%,#00ff00 100%);/* IE10+ */
+	margin-bottom:30px;
+	margin-left:10px;
+	margin-right:10px;
+    border-radius:100px ;
+}
+.url{
+	background-color:salmon;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:10px;
+	max-height:200px;
+	overflow:scroll;
+}
+#write{
+	background-color:blue;
+}
+.list{
+	background-color:darkcyan;
+	margin-bottom:30px;
+    margin-left:10px;
+	margin-right:10px;
+	border-top-right-radius:200px 100px;
+	padding:20px;
+	box-shadow:inset 6px 6px 5px salmon;
+}
+.table{
+	background-color:darkcyan;
+	margin-bottom:30px;
+	margin-bottom:15px;
+    margin-left:10px;
+    margin-right:10px;
+	border-top-right-radius:100px 100px;
+	padding:20px;
+}
+a{
+…
+/*تتحرك ببظء لما تيجى تقف على الفيس كدة*/
+transition-property: background-color, color, letter-spacing;
+transition-duration: 0.6s, 2s, 0.3s;
+transition-timing-function: ease-out, ease-in, ease-out;
+}
+a:hover, a:focus {
+background-color: red;
+letter-spacing: 3px;
+color: black;
+}
+table:hover,table:focus{
+	background-color: red;
+}
+.form{
+	background-color:hotpink;
+	margin-bottom:40px;
+    margin-left:10px;
+    margin-right:10px;
+	border-top:solid;
+	border-right:dashed;
+	border-bottom:groove;
+	border-left:dotted;
+	border-width:10px;
+}
+p{
+	font-family:Fantasy;       /*انواع الخط*/
+    font-size: 40px;           /*حجم الخط*/
+    font-weight: 100px,bolder; /*الفوة*/
+    font-style: italic; /*خط مائل*/
+    font-variant: small-caps;/*شكل فى الخط الاول كبير كدة يعنى*/
+    color:blue;
+    line-height:40px; /*مساحة المكان الى فية الخط*/
+	text-indent:60px;/*زى موضوع التعبير بتسيب شوية من الجنب كدة تنظيم يعنى*/
+	text-align:center;/*المكاان بتاع الكتابة*/
+	text-decoration:underline; /*خط تحت فوق مفيش */
+	letter-spacing:3px;
+	word-spacing:2px;
+	text-shadow:0 0 .7em purple; /*ظل للكلام*/
+	text-direction:ltr; /*عربى ولا انجلش */
+	background-image: url(img/7.jpg);
+	opacity: 1; /*الخلفية واضحة ولا لا*/
+	background-repeat:repeat;
+	background-attachment:scroll fixed; /*يتحرك معاك ولالا */
+	background-position:position position;
+	background-clip:;
+	background-size:;
+	background-origin:;
+}
+a:link {
+color: maroon;
+text-decoration:none;
+}
+ul{
+	list-style-image: url(img/7.jpg);
+   list-style-type: circle;
+   list-style-position: inside;
+}
+ol li{
+	background-color:red;
+	color:threeddarkshadow;
+	overflow:hidden;
+	max-width:50%
+}
+input[type="submit"], input[type="reset"],input[type="text"] {
+display: block;
+width: 10em;
+height: 2em;
+background: white;
+font-size: inherit;
+border: 1px solid #04699d;
+border-radius: 4px;
+box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+input[type="submit"] {
+margin-left: 10.5em;
+margin-right: 1em;
+color: #C00; /* the submit button text is attention-getting red */
+}

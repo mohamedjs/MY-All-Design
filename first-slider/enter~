@@ -1,0 +1,13 @@
+$(function(){
+  var  nav=$('navbar'),
+  image=$('.do img');
+  $(window).scroll(function(){
+     var scroll=$(window).scrollTop();
+     if(scroll >= image.OuterHeight()){
+       nav.addClass('fixed').slideDown();
+     }
+     else{
+       nav.removeClass('fixed');
+     }
+  });
+});

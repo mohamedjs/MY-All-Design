@@ -1,0 +1,80 @@
+$("any elemet like p img ").css("color size what i want"," type of them")
+and function;
+$(document).ready(function(){});
+$("button").click(function(){>>>>>>>>>>>>.dblclick like it
+        $("p").css("color","red");
+        $(this).hide(speed,);
+    });
+     $("button").mouseenter(function(){
+        $("p").css("color","red");
+    });
+     $("button").mouseleave(function(){
+        $("p").css("color","red");
+    });
+      $("button").hover(
+        function(){
+        $("p").css("color","blue");},>>>>>>>>>>>>>>>two function out we coming
+       function(){
+          $("p").css("color","red");
+      });
+      hide(slow fast) show just cahnge display to none or block
+      toggle do two things
+      fadein when press on button it,s show something and opacitty show slowely
+      fade out it.s unless fadein
+      fadeto>>fadetoggle do two thing
+      $(".click").click(function(){
+       $(".open").slideDown(5000,function(){$(".click").hide();});
+    });
+    SLIDEOUT LIKE IT SLIDETOGGLE IT TO DO TWO SOME THINF
+    $("button").enimate({css code},speed.celbackefunction)
+       $(".kill").animate(
+    {
+        width:'500px',
+        height:'show',
+        opacity:'.4',
+        borderRadius:'20px'
+    }
+        ,
+        2000
+    );
+ $(".kill").animate(
+    {
+        width:'800px',
+        height:'show',
+        opacity:'.9',
+        borderRadius:'50px'
+    }
+        ,
+        2000
+    );
+    stop()>>>>stop animation and do after it
+    
+    $("p").text()>>>get text>>>>>>$("p").text($("h1").text())>>>>set text 
+    $("p").html()>>>get text with his style and tag>>>>>>$("p").html($("h1").html())>>>>set text with his style and tag
+    $("tex").value()>>>get value in text the id of him is tex>>>>>>$("p").value($("h1").value())>>>>set text in squer to another squer
+    The jQuery append() method inserts content AT THE END of the selected HTML elements.
+    The jQuery prepend() method inserts content AT THE BEGINNING of the selected HTML elements.
+    The jQuery after() method inserts content AFTER the selected HTML elements. قبل السطر
+    The jQuery before() method inserts content BEFORE the selected HTML elements.
+    remove(".text,.demo")>> delet two class from page
+    empty(".text,.demo")>> empty two class from page
+    $("p,h1,div").addclass("kill imoportant")>>change style to many style like kill important
+    removeclass like add but unless it تمسح الى غملى الاستيل
+    toggleClass ببتعمل الاتنان تمسح وتحط الاستيل على حسب
+    css({"propertyname":"value","propertyname":"value",...});
+    The width() method sets or returns the width of an element (excludes padding, border and margin)...>>without
+    The height() method sets or returns the height of an element (excludes padding, border and margin).
+    innerwidth get width with padding innerheight
+    outerwidth get width with padding and border
+    $("li")parent.css({})>>ul is parent so we control it now>>parents all parent>>parentuntill
+    $("p").children().css({"color": "red", "border": "2px solid red"});>>like span control it
+    $("div").find("p").css({})>>get the element and style it
+     $("h2").siblings().css({"color": "red", "border": "2px solid red"});>>style all elepment without him mean h2 no style
+     $("h2").next<<<<<<prev>>>> stlyle next elepment ..... $("h2").nextall>>style all elempent after it
+     ("h2").nextuntill("h6")>>>مفهوم دية
+     $("p").eq(2)>>تانى بى وهكذ حسب الترتيب والعب برااحتى بقا فيها>>>firs...lastاول بى واخر بى وكدة بقاا
+     The not() method is the opposite of filter()كل البى ماعدا كذا هيا دية النوت
+     end>>بتنهى سلسلة وتبدا فى سلسلة تانية
+     is>>تشوف البيرنت دة ديف ولالا مثلا ولا بى ولا يو ال كدة يعنى تنفع فى الاتشك
+     اhas>>>مثلا البى جواه استرونج او الديف وممكن اكتر من حاجة وبعدين نعملها خواص بالسى اس اس
+     
